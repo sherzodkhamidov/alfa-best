@@ -1,0 +1,9 @@
+.navbarPur{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.pur-div{
+    display: flex;
+    justify-content: center;
+}

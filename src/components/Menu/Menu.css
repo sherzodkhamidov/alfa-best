@@ -1,0 +1,154 @@
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.menu {
+  display: inline;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.bigmenu {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 15px 50px;
+}
+.logoBrand {
+  font-size: 25px;
+  color: black;
+}
+.uzru a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.uzru {
+  color: black;
+  list-style: none;
+}
+.black {
+  background-color: white;
+}
+.media-translate .ri-global-line {
+  cursor: pointer;
+  color: #8d9197;
+  font-size: 20px;
+  font-size: 25px;
+}
+.media-translate1 .ri-global-line {
+  cursor: pointer;
+  color: #8d9197;
+  font-size: 20px;
+  font-size: 25px;
+}
+.modal-menu {
+  display: flex;
+}
+.moddal {
+  display: flex;
+  justify-content: space-between;
+}
+.media-navbar {
+  display: none;
+  background-color: white;
+}
+.modall {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+.media-head {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.media-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #28c79e;
+}
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #28c79e;
+  font-size: 30px;
+}
+.inmodal{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+ padding: 20px;
+}
+.moddal-big{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500;
+  color: #1B2330;
+}
+.media-just{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  height: 80vh;
+}
+.loader1{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+
+@media screen and (max-width: 455px) {
+  .media-navbar {
+    display: block;
+    width: 100vw;
+   padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+  }
+  .uzru {
+    display: none;
+  }
+  .media-big {
+    display: none;
+  }
+  .media-just{
+    width: 100vw;
+  }
+  .inmodal{
+    width: 100vw;
+  }
+
+}

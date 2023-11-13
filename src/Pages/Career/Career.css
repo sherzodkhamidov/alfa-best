@@ -1,0 +1,21 @@
+.navbar1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.topp {
+  margin-top: -350px;
+  padding: 0 80px;
+}
+
+@media screen and (max-width: 455px) {
+  .navbar1 {
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+  .topp{
+    padding: 0px;
+  }
+}

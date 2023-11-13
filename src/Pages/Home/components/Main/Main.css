@@ -1,0 +1,47 @@
+.back{
+    width: 100%;
+    height: 584px;
+    opacity: 0.35;
+    
+}
+.tittle{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    line-height: 40px;
+    margin-top: -400px;
+}
+.main2{
+    padding-left: 50px;
+}
+.texxt{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.fon{
+    width: 100%;
+    height: 584px;
+    background-color: black;
+}
+@media screen and (max-width: 455px) {
+.fon{
+    height: 300px;
+}
+.back{
+    height: 300px;
+}
+.main2{
+    margin-top: 250px;
+    margin-left: -20px;
+}
+.tittle{
+    font-size: 18px;
+}
+.texxt{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+}

@@ -1,0 +1,69 @@
+.komanda{
+    display: flex;
+    gap: 50px;
+}
+.komanda-slider {
+    display: flex;
+    overflow-x: hidden;
+  }
+  
+  .komanda {
+    display: flex;
+    transition: all 0.5s ease;
+  }
+  
+  .komanda-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+   border: 1px solid #1B2330;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .komanda-arrow:hover {
+    background-color: #aaa;
+  }
+  .control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .buttons{
+    display: flex;
+    gap: 10px;
+  }
+  .vse{
+    padding: 50px 100px;
+  }
+  .ourteam{
+    font-weight: 700;
+    font-size: 34px;
+    color: #1B2330;
+  }
+  .name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B2330;
+  }
+  .position{
+    color: 
+    #8D9197;
+  }
+
+  @media screen and (max-width: 455px) {
+.vse{
+  padding: 20px;
+}
+.komanda{
+  gap: 10px;
+}
+
+
+  }
+  

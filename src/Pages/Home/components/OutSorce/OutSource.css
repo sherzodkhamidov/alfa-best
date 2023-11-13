@@ -1,0 +1,37 @@
+.out{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.id{
+    font-weight: 900;
+}
+.hammasi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.hamm{
+    display: flex;
+}
+.outro{
+    display: flex;
+    gap: 50px;
+}
+
+
+@media screen and (max-width: 455px) {
+.outro{
+    gap: 5px;
+}
+.out{
+    gap: 5px;
+}
+.hamm{
+    margin-top: -100px;
+}
+}

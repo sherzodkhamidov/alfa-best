@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px 100px 50px 680px;
+    gap: 30px;
+}
+.vac-text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1B2330;
+}
+
+
+@media screen and (max-width: 455px) {
+.box{
+    align-items: start;
+    padding: 20px;
+}
+.box2{
+    align-items: start;
+    padding: 20px;
+}
+}

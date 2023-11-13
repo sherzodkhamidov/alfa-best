@@ -1,0 +1,24 @@
+.sponsor{
+    display: flex;
+    padding: 50px 100px;
+    margin-top: 250px;
+    justify-content: center;
+}
+.ul1{
+    display: flex;
+}
+.ul1 li {
+    list-style: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 455px) {
+.sponsor{
+    padding: 20px;
+    margin-top: 50px;
+}
+.ul1{
+    flex-direction: column;
+}
+
+}

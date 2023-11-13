@@ -1,0 +1,31 @@
+.trans-small {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.trans-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 35px;
+}
+.trans-ham {
+  padding: 20px 100px 80px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.transp-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1b2330;
+}
+
+@media screen and (max-width: 455px) {
+.trans-ham{
+  padding: 20px;
+}
+.trans-div{
+  grid-template-columns: repeat(1, 1fr);
+}
+}

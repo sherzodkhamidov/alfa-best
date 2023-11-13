@@ -1,0 +1,55 @@
+.bolim1{
+    display: flex;
+    justify-content: space-between;
+}
+.catt-all{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+padding: 20px 100px 50px 100px;
+
+}
+.bolim{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+.catt-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    color:  #1B2330;
+}
+.bolim p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B2330;
+}
+.coo-div{
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 455px) {
+.catt-all{
+    padding: 20px;
+}
+.bolim1{
+    flex-direction: column;
+}
+.coo-div{
+    flex-direction: column;
+    padding: 20px;
+}
+.coo-div img {
+    width: 268px;
+    height: 249px;
+}
+
+}

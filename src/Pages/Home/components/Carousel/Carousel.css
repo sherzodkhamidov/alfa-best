@@ -1,0 +1,52 @@
+.carousel {
+  display: flex;
+  align-items: flex-end;
+  padding: 100px 80px;
+}
+.image {
+  width: 70px;
+  height: 85px;
+}
+.text {
+  text-decoration: none;
+  font-size: 45px;
+  color: white;
+  font-weight: 700;
+}
+.btn1 {
+  width: 163px;
+  height: 48px;
+  border-radius: 45px;
+  background-color: #28c79e;
+  border: none;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (max-width: 455px) {
+  .carousel {
+    margin-top: 100px;
+    height: 250px !important;
+    padding: 30px;
+  }
+  .image {
+    display: none;
+  }
+  .text {
+    color: #1b2330;
+    font-size: 18px;
+  }
+  .left {
+    padding-top: 30px;
+  }
+  .divcha {
+    display: flex;
+    flex-direction: column;
+  }
+}

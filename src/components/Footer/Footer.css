@@ -1,0 +1,113 @@
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: #1b2330;
+  color: white;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  border-bottom: 1px solid white;
+}
+.div1 ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.div1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.div2 {
+  display: flex;
+  gap: 80px;
+}
+.brandd {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  gap: 10px;
+  margin-top: -100px;
+}
+#socicon {
+  font-size: 35px;
+  cursor: pointer;
+}
+.iccons {
+  display: flex;
+  gap: 15px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.div3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+}
+.div3 div {
+  display: flex;
+  gap: 30px;
+}
+.div3 div p {
+  cursor: pointer;
+}
+.div3 img {
+  cursor: pointer;
+}
+.div1 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footerr{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+
+@media screen and (max-width: 455px) {
+.div2{
+  flex-direction: column;
+}
+.div1{
+  padding: 20px !important;
+}
+.footer{
+  height: auto;
+}
+.footerr{
+  flex-direction: column;
+}
+.brandd{
+  margin-top: 0px;
+}
+.foot-li{
+  margin-top: -70px;
+}
+.div1 ul li a {
+font-weight: 600;
+}
+.foot-li2{
+  margin-top: -65px;
+}
+.foot-li2 ul li a {
+  color: #4e4f5b;
+}
+.social{
+  margin-top: 40px;
+}
+.div3{
+  padding: 20px !important;
+}
+.div3 div p {
+  font-size: 15px;
+}
+.div3 div {
+  gap: 10px;
+}
+}

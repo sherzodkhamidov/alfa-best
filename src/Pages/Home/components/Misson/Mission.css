@@ -1,0 +1,32 @@
+.mission{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    gap: 150px;
+}
+.mission1{
+    width: 30vw;
+}
+.theme{
+    font-size: 34px;
+    font-weight: 700px;
+}
+.textt{
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 455px) {
+.mission{
+    flex-direction: column;
+    padding: 20px;
+}
+.theme{
+    width: 80vw;
+}
+.textt{
+    width: 90vw;
+}
+
+}
