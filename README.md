@@ -1,4 +1,4 @@
-ALFABEST - https://alfabest.netlify.app
+Alfabest - https://alfabest.netlify.app
 
 # React + Vite
 
